@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffrin Joe | Portfolio</title>
+  <meta name="description" content="Premium personal portfolio for Jeffrin Joe, ECE student, football player, and future innovator." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" aria-label="Loading portfolio">
+    <div class="loader-ring"></div>
+    <p>Loading Jeffrin's World...</p>
+  </div>
+
+  <canvas id="particles"></canvas>
+  <div class="cursor-glow"></div>
+
+  <header class="nav-wrap">
+    <nav class="container nav">
+      <a class="logo" href="#home">Jeffrin<span>Joe</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#football">Football</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Student • Athlete • Builder</p>
+          <h1>Hi, I'm <span>Jeffrin Joe</span></h1>
+          <p class="typing-line">ECE Student | Football Player | Future Innovator</p>
+          <p class="lead">Ambitious, disciplined, sporty, and modern — crafting bold ideas through engineering, teamwork, and relentless effort.</p>
+          <div class="cta-row">
+            <a href="#projects" class="btn btn-primary">View Portfolio</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="mini-stats">
+            <div class="mini-card glass-card"><strong>3rd</strong><span>Year ECE</span></div>
+            <div class="mini-card glass-card"><strong>23 Feb</strong><span>Date of Birth</span></div>
+            <div class="mini-card glass-card"><strong>JACSICE</strong><span>College</span></div>
+          </div>
+        </div>
+
+        <article class="hero-card glass-card reveal">
+          <div class="badge">Future Innovator</div>
+          <h3>Personal Brand</h3>
+          <ul class="hero-list">
+            <li><i class="fa-solid fa-microchip"></i> Electronics & Communication Engineering</li>
+            <li><i class="fa-solid fa-futbol"></i> Football player with discipline and strategy</li>
+            <li><i class="fa-solid fa-bolt"></i> Passion for innovation, design, and impact</li>
+          </ul>
+          <div class="pulse-orb"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Engineering ambition with a sporty soul</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <p>I am Jeffrin Joe, a dedicated ECE student at JACSICE, currently in 3rd year. I am passionate about football, technology, and continuous self-improvement. I believe discipline, focus, and teamwork can transform ideas into real impact. My goal is to build a life that blends innovation, leadership, and sport with purpose.</p>
+          </article>
+          <article class="glass-card reveal">
+            <div class="detail-list">
+              <div><i class="fa-solid fa-user-graduate"></i> Degree: ECE</div>
+              <div><i class="fa-solid fa-school"></i> College: JACSICE</div>
+              <div><i class="fa-solid fa-calendar"></i> Year: 3rd Year</div>
+              <div><i class="fa-solid fa-cake-candles"></i> DOB: 23 February 2007</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Academic Path & Growth</h2>
+        </div>
+        <div class="card-grid">
+          <article class="glass-card reveal timeline-card">
+            <h3>Electronics & Communication Engineering</h3>
+            <p class="subtle">JACSICE • 3rd Year</p>
+            <p>Developing strong fundamentals in electronics, communication systems, problem-solving, and practical innovation.</p>
+          </article>
+          <article class="glass-card reveal timeline-card">
+            <h3>Leadership & Discipline</h3>
+            <p class="subtle">Through sports and academics</p>
+            <p>Focused on consistency, confidence, and disciplined execution both on and off the field.</p>
+          </article>
+          <article class="glass-card reveal timeline-card">
+            <h3>Future Vision</h3>
+            <p class="subtle">Tech + Sports + Impact</p>
+            <p>Building a career where engineering excellence and athletic energy combine to create meaningful outcomes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Core strengths and standout abilities</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>HTML</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>CSS</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>JavaScript</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>Communication</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>Teamwork</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>Leadership</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+          <article class="glass-card reveal skill-card"><div class="skill-head"><span>Football Strategy</span><strong>99%</strong></div><div class="progress"><span data-width="99"></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="football" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Football Journey</p>
+          <h2>Sports passion, discipline, and winning mindset</h2>
+        </div>
+        <div class="football-grid">
+          <article class="glass-card reveal sport-card"><i class="fa-solid fa-futbol"></i><h3>Training Focus</h3><p>Confidence, speed, agility, tactical reading, and match awareness define my football journey.</p></article>
+          <article class="glass-card reveal sport-card"><i class="fa-solid fa-trophy"></i><h3>Achievements</h3><p>Strong sports discipline and team spirit help me stay motivated, competitive, and goal-driven.</p></article>
+          <article class="glass-card reveal sport-card"><i class="fa-solid fa-stadium"></i><h3>Mindset</h3><p>I treat every challenge like a match — prepared, focused, and ready to push beyond limits.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Creative work and future-ready ideas</h2>
+        </div>
+        <div class="project-grid">
+          <article class="glass-card reveal project-card"><h3>Smart Sensor Interface</h3><p>Designed an ECE-based sensor display system with responsive controls and real-time monitoring concepts.</p><span>ECE • Embedded • Innovation</span></article>
+          <article class="glass-card reveal project-card"><h3>Modern Portfolio Website</h3><p>Built a premium personal brand website with dynamic visuals, smooth animations, and modern UI design.</p><span>Web Dev • UI/UX • Design</span></article>
+          <article class="glass-card reveal project-card"><h3>Football Performance Dashboard</h3><p>Concept project for tracking training routines, fitness goals, and tactical performance insights.</p><span>Sports • Analytics • Future Tech</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect and build something great</h2>
+        </div>
+        <div class="contact-grid">
+          <article class="glass-card reveal">
+            <form class="contact-form">
+              <label><span>Email</span><input type="email" name="email" value="jeffrinnazareth@gmail.com" required /></label>
+              <label><span>Message</span><textarea name="message" rows="5" placeholder="Tell me about your idea, project, or collaboration..." required></textarea></label>
+              <button class="btn btn-primary send-btn" type="submit">Send Message</button>
+            </form>
+          </article>
+          <article class="glass-card reveal contact-side">
+            <h3>Reach out</h3>
+            <p>Open to collaborations, creative projects, football-driven initiatives, and future tech ideas.</p>
+            <div class="socials"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div class="contact-chip">Email: jeffrinnazareth@gmail.com</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© 2026 Jeffrin Joe. Crafted with passion, discipline, and futuristic design.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
